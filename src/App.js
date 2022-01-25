@@ -14,6 +14,7 @@ class App extends Component {
         <div className="d-flex flex-row">
           <Cards />
         </div>
+        <div className="d-flex flex-row"></div>
       </div>
     );
   }

@@ -4,8 +4,8 @@ export default class Header extends Component {
   render() {
     return (
       <header className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="/">
-          SoadMission
+        <a className="navbar-brand">
+          <img src="/src/img/SoadMission.png"></img>
         </a>
         <button className="navbar-toggler">
           <span className="navbar-toggler-icon"></span>
