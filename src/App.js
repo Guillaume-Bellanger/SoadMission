@@ -9,7 +9,7 @@ import {
   Stage,
   HeaderConcour,
   Concours,
-  Avis,
+  Contact,
 } from "./components";
 
 class App extends Component {
@@ -18,35 +18,60 @@ class App extends Component {
       <div className="App d-flex flex-column">
         <Header />
 
-        <div className="d-flex flex-row gx-1">
+        <div
+          className="d-flex flex-row "
+          style={{ marginTop: "2rem", backgroundColor: "red" }}
+        >
           <HeaderMain />
         </div>
 
-        <div className="d-flex flex-row">
+        <div
+          className="d-flex flex-row"
+          style={{ marginTop: "2rem", backgroundColor: "blue" }}
+        >
           <HeaderCrpe />
         </div>
 
-        <div className="d-flex flex-row">
+        <div
+          className="d-flex flex-row"
+          style={{ marginTop: "2rem", backgroundColor: "green" }}
+        >
           <Crpe />
         </div>
 
-        <div className="d-flex flex-row">
+        <div
+          className="d-flex flex-row"
+          style={{ marginTop: "2rem", backgroundColor: "grey" }}
+        >
           <HeaderStage />
         </div>
 
-        <div className="d-flex flex-row">
+        <div
+          className="d-flex flex-row"
+          style={{ marginTop: "2rem", backgroundColor: "pink" }}
+        >
           <Stage />
         </div>
 
-        <div className="d-flex flex-row">
+        <div
+          className="d-flex flex-row"
+          style={{ marginTop: "2rem", backgroundColor: "purple" }}
+        >
           <HeaderConcour />
         </div>
 
-        <div className="d-flex flex-row"></div>
-        <Concours />
+        <div
+          className="d-flex flex-row"
+          style={{ marginTop: "2rem", backgroundColor: "brown" }}
+        >
+          <Concours />
+        </div>
 
-        <div className="d-flex flex-row>">
-          <Avis />
+        <div
+          className="d-flex flex-row>"
+          style={{ marginTop: "2rem", backgroundColor: "orange" }}
+        >
+          <Contact />
         </div>
       </div>
     );

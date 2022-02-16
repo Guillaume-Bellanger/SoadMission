@@ -7,4 +7,4 @@ export { default as HeaderStage } from "./main/crpe/HeaderStage";
 export { default as Stage } from "./main/crpe/Stage";
 export { default as HeaderConcour } from "./main/crpe/HeaderConcour";
 export { default as Concours } from "./main/crpe/Concours";
-export { default as Avis } from "./main/avis/Avis";
+export { default as Contact } from "./main/contact/Contact";
